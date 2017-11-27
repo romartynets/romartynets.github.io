@@ -4,7 +4,7 @@ body{
     background-repeat: repeat-x;
     background-position: fixed;
       font-size:13px;
-    line-height:18рх;
+    line-height:18px;
     color: #333;
      font-family: Arial;
 
@@ -34,17 +34,17 @@ body{
 }
 	
 h1 {
-    font-size: 26рх;
+    font-size: 26px;
     color: #2b8c57 ;
-    line-height: 36рх;
-    font-stretch:normal;
+    line-height: 36px;
+    font-weight:normal;
     margin-bottom: 10px;
 }
 h2 {
-    font-size: 18рх;
+    font-size: 18px;
     line-height: 28px;
     color:#2b8c57;
-    font-stretch: normal;
+    font-weight: normal;
     font-style: italic;
     margin: 30px auto 15px auto;
 }
