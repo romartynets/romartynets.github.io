@@ -67,7 +67,7 @@ div.block-2 {
     background-color: #356149;
     background-image: url(img/picture-1.png);
     background-repeat: no-repeat;
-    background-position: right;
+    background-position: bottom right;
 }
 
 a.button {
