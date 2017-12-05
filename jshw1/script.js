@@ -3,7 +3,7 @@ name= prompt("Name:");
 time= prompt("Time:");
 place= prompt("Place:");
 event= prompt("Event:");
-document.write(name+" has a "+event+" "+time+" "+place+".");
+console.log(name+" has a "+event+" "+time+" "+place+".");
 euro= prompt("Euros:");
 dollar= prompt("Dollars:");
 usd=27.006;
