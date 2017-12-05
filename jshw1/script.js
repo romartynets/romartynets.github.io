@@ -10,7 +10,7 @@ usd=27.006;
 eur=31.822;
 a=eur*euro;
 b=dollar*usd;
-c=eur/usd;
+c=usd/eur;
 alert(euro+" euros are equal "+a+" grns, "+dollar+" dollars are equal "+b+" grns, one euro is equal "+c+" dollars.");
 
 
