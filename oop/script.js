@@ -268,7 +268,11 @@ button6.onclick = function() {
         alert("Введіть додатнє значення");
         return;
     }
-
+        if(s[b].notMoney==true)
+    {
+        alert("Цей автомат пустий");
+        return;
+    }
     s[b].putMoney(a);
     document.getElementsByClassName("numb")[0].innerHTML=d.money;
     Selectchange ();
