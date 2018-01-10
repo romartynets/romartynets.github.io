@@ -134,6 +134,8 @@ class SlotMachine{
             this.money=0;
             d.money+=1000000;
             this.notMoney=true;
+            document.getElementsByClassName("numb")[0].innerHTML=d.money;
+
         }
         else if((first_number==second_number) && (second_number==third_number)&& (third_number==first_number))
         {
