@@ -243,6 +243,11 @@ button5.onclick = function() {
         alert("Недостатньо грошей");
         return;
     }
+        if(a<0)
+    {
+        alert("Введіть додатнє значення");
+        return;
+    }
     s[b].getMoney(a);
     document.getElementsByClassName("numb")[0].innerHTML=d.money;
     Selectchange ();
