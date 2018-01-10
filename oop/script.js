@@ -7,11 +7,8 @@ class Casino{
     allmoney()
     {
         var Allmoney=this.money;
-        console.log(this.money);
         for(i=0;i<d.number;i++)
         {
-            console.log(Allmoney);
-            console.log(s[i].money);
             Allmoney+=s[i].money;
         }
         alert(Allmoney);
