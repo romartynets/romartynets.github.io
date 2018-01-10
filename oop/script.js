@@ -131,6 +131,7 @@ class SlotMachine{
 
         if(((first_number==second_number) && (second_number==third_number)&& (third_number==first_number)&& (this.lucky==true))||((first_number==7)&&(second_number==7)&&(third_number==7)) )
         {
+            alert("Ви виграли всі гроші у цьому автоматі");
             this.money=0;
             d.money+=1000000;
             this.notMoney=true;
